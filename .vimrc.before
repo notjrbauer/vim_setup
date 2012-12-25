@@ -1,0 +1,7 @@
+" fancy up that powerline boooy!
+let g:Powerline_symbols = 'fancy'
+" NERDTree configuration
+let NERDTreeMouseMode=1 " double-click open folders, double-click open file
+let NERDTreeShowHidden=1 " show hidden files
+map <Leader>n :NERDTreeToggle<CR>
+call janus#disable_plugin('nerdcommenter')
